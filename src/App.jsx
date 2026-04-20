@@ -1,12 +1,14 @@
 import { Navbar } from "./components/Navbar";
+import { Home } from "./pages/Home";
 
 function App() {
   return (
     <>
       {/* header- navigation bar */}
-      <section className="max-w-full min-h-screen bg-[#f2f2f0]">
+      <section className="w-full min-h-screen">
         {/* navbar */}
         <Navbar />
+        <Home />
       </section>
     </>
   );

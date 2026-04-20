@@ -1,19 +1,18 @@
 import { Link } from "react-router";
-import logo from "../assets/Union.png";
+import logo from "../assets/logo.svg";
 
 export const Navbar = () => {
   return (
-    <div className="w-full bg-[#fbfbf8]">
+    <div className="w-full text-slate-100 bg-[#121212]">
       {/* desktop nav */}
       <nav className="w-full max-w-7xl mx-auto flex justify-between items-center py-4 px-2 sm:px-0">
-        <h1 className="flex font-bold text-[#9b4e45] sm:text-lg">
-          <img src={logo} alt="" className="w-8 sm:w-12" /> VectarLabs
-        </h1>
-        <ul className="hidden sm:flex gap-10 text-md text-[#6d4e45] font-medium">
+        <img src={logo} alt="" className="w-32 sm:w-52" />
+
+        <ul className="hidden sm:flex gap-10 text-md text-slate-100 font-medium">
           <a href="">Products</a>
           <a href="" className="flex gap-3 items-center">
             Company{" "}
-            <span className="">
+            {/* <span className="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
@@ -28,12 +27,12 @@ export const Navbar = () => {
               >
                 <path d="m6 9 6 6 6-6" />
               </svg>
-            </span>
+            </span> */}
           </a>
           <a href="">Resources</a>
           <a href="">Customer Stories</a>
         </ul>
-        <button className="hidden sm:block bg-[#9b4e45] text-[#effbf9] font-semibold py-3 px-12 cursor-pointer">Free Consultation</button>
+        <button className="hidden sm:block bg-slate-100 text-[#121212] rounded-full font-semibold py-2.5 px-8 cursor-pointer">Get Free Consultation</button>
         {/* mobile toggle button */}
         <button className="sm:hidden">
           <svg
