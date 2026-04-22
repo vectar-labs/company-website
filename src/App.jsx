@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       {/* header- navigation bar */}
-      <section className="w-full min-h-screen">
+      <section className="w-full min-h-screen font-inter">
         {/* navbar */}
         <Navbar />
         <Home />
