@@ -12,7 +12,7 @@ export const PartnersSection = () => {
     <section className="w-full bg-white py-16 px-4">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-slate-900 text-2xl sm:text-3xl font-bold mb-8">Trusted by leading institutions</h2>
-        <p className="text-slate-500 text-sm mb-10 max-w-lg">
+        <p className="text-slate-500 text-md md:text-lg mb-10 max-w-lg">
           Schools and universities across Tanzania and East Africa rely on our platform to manage, teach, and communicate better.
         </p>
 

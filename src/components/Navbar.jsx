@@ -6,7 +6,7 @@ export const Navbar = () => {
     <div className="w-full text-slate-100 bg-[#121212]">
       {/* desktop nav */}
       <nav className="w-full max-w-7xl mx-auto flex justify-between items-center py-4 px-2 sm:px-0">
-        <img src={logo} alt="" className="w-44 sm:w-52" />
+        <img src={logo} alt="vectarlabs logo" className="w-44 sm:w-52" />
 
         <ul className="hidden lg:flex gap-10 text-sm text-slate-100 font-medium">
           <a href="">Products</a>

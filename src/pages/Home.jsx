@@ -1,6 +1,9 @@
 import HeroImage from "../assets/diagram.svg";
+import { CtaSection } from "../components/CtaFooterSection";
+import { Footer } from "../components/Footer";
 import { MissionSection } from "../components/MissionSection";
 import { PartnersSection } from "../components/PartnersSection";
+import { Testimonial } from "../components/Testimonial";
 import { WhyUs } from "../components/WhyUs";
 
 export const Home = () => {
@@ -49,8 +52,8 @@ export const Home = () => {
         <div className="max-w-7xl mx-auto pt-20">
           <h2 className="text-[#121212] text-2xl sm:text-3xl font-bold mb-4 sm:mb-2 leading-snug ">A technology partner for the education industry</h2>
           <div className="">
-            <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-5 py-5">
-              <div className="col-span-1  py-8 sm:pb-0 pr-16">
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-5 py-5">
+              <div className="col-span-1  py-8 sm:pb-0 pr-2 lg:pr-16">
                 <p className="text-xl text-[#121212] font-semibold">School & university software</p>
                 <p className="text-md my-6 flex items-center gap-2 font-semibold">
                   {" "}
@@ -83,7 +86,7 @@ export const Home = () => {
                   </span>
                   LearnHub
                 </p>
-                <p className="text-[#121212] text-sm font-normal">
+                <p className="text-slate-600 text-sm font-normal">
                   Learning management systems, virtual classrooms, and e-learning tools that extend your institution beyond physical walls.
                 </p>
               </div>
@@ -105,7 +108,7 @@ export const Home = () => {
                   </span>
                   TechDesk
                 </p>
-                <p className="text-[#121212] text-sm font-normal">
+                <p className="text-slate-600 text-sm font-normal">
                   Network setup, cloud hosting, cybersecurity, device management, and reliable on-site IT support for your campus.
                 </p>
               </div>
@@ -119,6 +122,9 @@ export const Home = () => {
       <MissionSection />
       {/* Why choose us */}
       <WhyUs />
+      <Testimonial />
+      <CtaSection />
+      <Footer />
     </section>
   );
 };
